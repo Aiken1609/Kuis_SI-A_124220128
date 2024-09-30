@@ -72,8 +72,7 @@ class HomePage extends StatelessWidget {
                         ),
                         const Text(
                           'Rp5.000',
-                          style: TextStyle(
-                              color: Color.fromARGB(255, 255, 255, 255)),
+                          style: TextStyle(color: Colors.grey),
                         ),
                         const SizedBox(height: 8),
                         ElevatedButton(
@@ -83,7 +82,11 @@ class HomePage extends StatelessWidget {
                             padding:
                                 const EdgeInsets.symmetric(horizontal: 16.0),
                           ),
-                          child: const Text('Beli'),
+                          child: const Text(
+                            'Beli',
+                            style: TextStyle(
+                                color: Color.fromARGB(255, 255, 255, 255)),
+                          ),
                         ),
                       ],
                     ),
