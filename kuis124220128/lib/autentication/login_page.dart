@@ -95,7 +95,7 @@ class _LoginPageState extends State<LoginPage> {
 
   Widget _loginIcon({required IconData icon}) {
     return Image.network(
-      "https://raw.githubusercontent.com/YudaSaputraa/FoodApp-assets/refs/heads/main/bg_banner.webp",
+      "https://raw.githubusercontent.com/YudaSaputraa/FoodApp-assets/refs/heads/main/img_authentication.webp",
       width: 250,
     );
   }
