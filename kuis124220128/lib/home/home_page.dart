@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kuis124220128/autentication/login_page.dart';
+import 'package:kuis124220128/pemesanan/detail_page.dart';
 
 class HomePage extends StatelessWidget {
   final String username;
@@ -76,7 +77,14 @@ class HomePage extends StatelessWidget {
                         ),
                         const SizedBox(height: 8),
                         ElevatedButton(
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => DetailPage(),
+                              ),
+                            );
+                          },
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.purple,
                             padding:
